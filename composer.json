@@ -9,6 +9,10 @@
     "require": {
         "composer/installers": "1.0.*@dev"
     },
+    "extra": {
+        "class": "Composer\\Installer\\YiiExtensionInstaller"
+    },
+
     "require-dev": {
         "composer/composer": "*@dev"
     }
