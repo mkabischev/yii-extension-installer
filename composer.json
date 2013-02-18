@@ -1,0 +1,9 @@
+{
+    "name" : "mkabischev/yii-extension-installer",
+    "require" : {
+        "composer/installers" : "1.0.*@dev"
+    },
+    "require-dev" : {
+        "composer/composer" : "*@dev"
+    }
+}
