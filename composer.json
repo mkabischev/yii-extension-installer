@@ -1,9 +1,15 @@
 {
-    "name" : "mkabischev/yii-extension-installer",
-    "require" : {
-        "composer/installers" : "1.0.*@dev"
+    "name": "mkabischev/yii-extension-installer",
+    "type": "composer-installer",
+    "autoload": {
+        "psr-0": {
+            "Composer": "src/"
+        }
     },
-    "require-dev" : {
-        "composer/composer" : "*@dev"
+    "require": {
+        "composer/installers": "1.0.*@dev"
+    },
+    "require-dev": {
+        "composer/composer": "*@dev"
     }
 }
