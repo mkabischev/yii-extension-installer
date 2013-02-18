@@ -13,7 +13,7 @@ class YiiExtensionInstaller extends LibraryInstaller
 
     public function getInstallPath( PackageInterface $package )
     {
-        return 'another_dir/' . $package->getTargetDir();
+        return 'another_dir/' . $package->getPrettyName();
     }
 
 }
